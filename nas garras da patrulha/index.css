@@ -1,0 +1,74 @@
+/* Estilos para o corpo da página */
+body {
+    background: url('imagem_2022-11-02_224225717.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: "Arial", sans-serif; /* Substitua "Arial" pela fonte desejada */
+}
+
+/* Estilos para o cabeçalho principal */
+h1 {
+    display: inline-block;
+    font-family: "Helvetica", sans-serif; /* Substitua "Helvetica" pela fonte desejada */
+    color: #ff0000; /* Substitua #ff0000 pela cor desejada em formato hexadecimal, RGB ou nome da cor */
+}
+
+/* Estilos para subtítulos h2 e h3 */
+h2, h3 {
+    text-align: left;
+}
+
+/* Estilos para elementos de vídeo */
+video {
+    width: 50%; /* Defina a largura desejada, por exemplo, 50% da largura do contêiner pai */
+    max-height: 200px;
+    max-width: 200px; /* Defina a largura máxima para garantir que o vídeo não fique muito grande */
+    margin-top: -20px;
+    margin-left: -2px; /* Alinhe à esquerda */
+    margin-right: auto; /* Alinhe à direita */
+    display: block; /* Certifique-se de que o vídeo é tratado como um bloco para centralizá-lo */
+}
+
+/* Estilos para a lista no rodapé */
+#footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+}
+
+/* Estilos para as imagens no rodapé */
+#footer img {
+    height: 50px; /* Altura desejada para as imagens */
+    margin-left: 20px; /* Adiciona margem à esquerda da imagem */
+    margin-right: 30px; /* Adiciona margem à direita da imagem */
+    margin-bottom: -220px; /* Ajusta a posição vertical da imagem */
+}
+
+/* Estilos para parágrafos no rodapé */
+#footer p {
+    position: fixed;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px; /* Adiciona margem abaixo do primeiro parágrafo */
+}
+
+/* Estilos para o segundo parágrafo no rodapé */
+#footer p:last-child {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px; /* Adiciona margem abaixo do primeiro parágrafo */
+}
+
+/* Restante do seu CSS */
+
+/* Estilos para itens de lista no rodapé */
+#footer li {
+    display: flex; /* Adicionado para garantir que os itens da lista se comportem como flexíveis */
+}
