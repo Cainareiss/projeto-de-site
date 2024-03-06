@@ -17,6 +17,14 @@ h1 {
 h2, h3 {
     text-align: left;
 }
+.subtitulos-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.subtitulo {
+    flex: 1;
+}
 
 /* Estilos para elementos de vídeo */
 video {
